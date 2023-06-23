@@ -1,0 +1,10 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #535353;
+}
+
+#main {
+  max-width: 940px;
+  text-align: center;
+  margin: auto;
+}

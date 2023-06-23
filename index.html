@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Textboxy</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div id="main">
+    
+    <h1>Textboxy Generator</h1>
+
+    <img src="https://vercel-generator.vercel.app/homestuck/karkat/!5%20THIS%20IS%20JUST%20TEMPORARY%20I'LL%20MAKE%20THIS%20LOOK%20BETTER%20SOON%20I%20SWEAR.%20%23I%20AM%20SO%20TIRED.%20%23FUCK%20YOU%20IT'S%20GOOD%20ENOUGH." id="output">
+
+    <div class="selectwrap">
+
+      <button onclick="genTextbox()">Generate Textbox</button>
+
+    </div>
+
+    <div class="selectwrap">
+
+      <label for="char">Character:</label>
+
+      <select name="char" id="char">
+        <option value="">No character</option>
+        <optgroup label="Openbound">
+          <option value="karkat/">Karkat</option>
+          <option value="rose/">Rose</option>
+          <option value="dave/">Dave</option>
+          <option value="kanaya/">Kanaya</option>
+        </optgroup>
+        <optgroup label="Alterniabound">
+          <option value="nepeta/">Nepeta</option>
+        </optgroup>
+      </select>
+
+    </div>
+
+    <div class="selectwrap">
+
+      <label for="expr">Expression:</label>
+
+      <input type="number" name="expr" id="expr" min="0" max="9" value="0">
+
+    </div>
+
+    <textarea name="message" id="message"></textarea>
+
+  </div>
+
+  <script src="./textboxy.js"></script>
+  
+</body>
+</html>
