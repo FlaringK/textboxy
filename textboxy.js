@@ -12,7 +12,7 @@ const genTextbox = () => {
 
   message += document.getElementById("message").value
 
-  url += encodeURI(message).replace(/#/g, "%23")
+  url += encodeURIComponent(message)
 
   document.getElementById("output").src = url
 }
