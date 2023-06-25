@@ -1,19 +1,15 @@
-body {
-  font-family: 'Courier New', Courier, monospace;
-  background-color: #535353;
-}
-
-#main {
-  max-width: 940px;
-  text-align: center;
-  margin: auto;
-}
-
 textarea {
   width: 600px;
   height: 100px;
   border: 1px dashed gray;
   padding: 1px;
-  background-color: #eee;
+  background-color: transparent;
   padding: 12px 35px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+#output {
+  max-width: 650px;
+  min-height: 300px;
 }
